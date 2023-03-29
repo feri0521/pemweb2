@@ -10,15 +10,8 @@
         <table class="table" width="100%" border="1" cellspacing="2" cellpadding="2">
             <thead>
                 <tr>
-                    <th>No</th>
-                    <th>Kode</th>
-                    <th>Nama</th>
-                    <th>Harga beli</th>
-                    <th>Harga Jual</th>
-                    <th>stok</th>
-                    <th>min_stok</th>
-                    <th>jenis_produk_id</th>
-                       
+                    <th>No</th><th>Kode</th><th>Nama</th>
+                    <th>Harga Jual</th><th>Qty</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -31,13 +24,8 @@
                         <td><?=$nomor?></td>
                         <td><?=$row['kode']?></td>
                         <td><?=$row['nama']?></td>
-                        <td><?=$row['harga_beli']?></td>
                         <td><?=$row['harga_jual']?></td>
                         <td><?=$row['stok']?></td>
-                        <td><?=$row['min_stok']?></td>
-                        <td><?=$row['jenis_produk_id']?></td>
-
-                       
                         <td>
 <a class="btn btn-primary" href="view_produk.php?id=<?=$row['id']?>">View</a>
 <a class="btn btn-primary" href="form_produk.php?idedit=<?=$row['id']?>">Edit</a>
