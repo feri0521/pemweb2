@@ -42,4 +42,4 @@ echo "<hr>";
 
 $hero1->levelUp(7);
 
-$hero1->getinfo();
+$hero1->getinfo();   
